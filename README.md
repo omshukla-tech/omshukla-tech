@@ -1,3 +1,15 @@
+<!-- 
+==================================================================
+  IMPORTANT: Snake aur 3D contribution ke liye GitHub Actions setup karna zaroori hai.
+  Neeche diye gaye steps follow karo:
+  1. Repository Settings > Actions > General > Workflow permissions
+     mein "Read and write permissions" select karo.
+  2. `.github/workflows/snake.yml` file banao (code neeche diya hai).
+  3. `.github/workflows/3d-contrib.yml` file banao (code neeche diya hai).
+  4. Actions tab se dono workflows ko manually run karo.
+==================================================================
+-->
+
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:7C4DFF&height=200&section=header&text=OM%20SHUKLA&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=%F0%9F%90%8D%20Backend%20Developer%20%E2%80%A2%20Python%20%E2%80%A2%20Full-Stack&descAlignY=56&descSize=18" alt="header"/>
 </div>
@@ -31,7 +43,8 @@
 <td width="42%" valign="top">
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omshukla-tech&layout=compact&bg_color=0D1117&title_color=00E5FF&text_color=FFFFFF&border_color=30363D&langs_count=8" width="90%" alt="Top Languages"/>
+<!-- FIX: Changed from github-readme-stats.vercel.app to github-stats-extended.vercel.app -->
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=omshukla-tech&layout=compact&bg_color=0D1117&title_color=00E5FF&text_color=FFFFFF&border_color=30363D&langs_count=8" width="90%" alt="Top Languages"/>
 
 </div>
 </td>
@@ -85,7 +98,9 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=omshukla-tech&show_icons=true&bg_color=0D1117&title_color=00E5FF&icon_color=7C4DFF&text_color=FFFFFF&border_color=30363D&count_private=false&include_all_commits=false" alt="GitHub Stats"/>
+<!-- FIX: Changed to github-stats-extended.vercel.app -->
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=omshukla-tech&show_icons=true&bg_color=0D1117&title_color=00E5FF&icon_color=7C4DFF&text_color=FFFFFF&border_color=30363D&count_private=false&include_all_commits=false" alt="GitHub Stats"/>
+<!-- Streak stats URL demolab.com sahi hai, isliye isme change nahi kiya -->
 <img height="165" src="https://streak-stats.demolab.com?user=omshukla-tech&background=0D1117&border=30363D&ring=00E5FF&fire=7C4DFF&currStreakNum=FFFFFF&currStreakLabel=00E5FF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=8B949E&excludeDaysLabel=8B949E" alt="Streak Stats"/>
 
 </div>
@@ -96,7 +111,12 @@
 
 <div align="center">
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=omshukla-tech&bg_color=0D1117&color=00E5FF&line=7C4DFF&point=00E5FF&area=true&area_color=7C4DFF&hide_border=true" alt="Activity Graph"/>
+<!-- 
+  NOTE: github-readme-activity-graph.vercel.app public server ab disabled hai.
+  Isliye ise hata diya gaya hai. Aap iski jagah koi self-hosted instance use kar sakte hain.
+  Filhal is section ko comment kar diya gaya hai.
+-->
+<!-- <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=omshukla-tech&bg_color=0D1117&color=00E5FF&line=7C4DFF&point=00E5FF&area=true&area_color=7C4DFF&hide_border=true" alt="Activity Graph"/> -->
 
 </div>
 ---
@@ -105,6 +125,10 @@
 
 <div align="center">
 
+<!-- 
+  IMPORTANT: Ye image tabhi dikhegi jab aapne 3D Contrib workflow setup kiya hoga 
+  aur `profile-3d-contrib` folder generate hua hoga.
+-->
 <img width="95%" src="profile-3d-contrib/profile-season-animate.svg" alt="3D Contributions"/>
 
 </div>
@@ -113,6 +137,10 @@
 
 ## 🐍 Snake Eating My Contributions
 
+<!-- 
+  IMPORTANT: Ye image tabhi dikhegi jab aapne Snake workflow run kiya hoga 
+  aur `output` branch mein SVG file commit hui hogi.
+-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omshukla-tech/omshukla-tech/output/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omshukla-tech/omshukla-tech/output/github-snake.svg"/>
@@ -125,7 +153,11 @@
 
 <div align="center">
 
-<img width="95%" src="https://github-profile-trophy.vercel.app/?username=omshukla-tech&theme=tokyonight&no-bg=false&no-frame=false&margin-w=8" alt="Trophies"/>
+<!-- 
+  NOTE: github-profile-trophy.vercel.app public server "DEPLOYMENT_DISABLED" return kar raha hai.
+  Isliye ise hata diya gaya hai. Aap ise self-host karke ya GitHub Actions se generate karke add kar sakte hain.
+-->
+<!-- <img width="95%" src="https://github-profile-trophy.vercel.app/?username=omshukla-tech&theme=tokyonight&no-bg=false&no-frame=false&margin-w=8" alt="Trophies"/> -->
 
 </div>
 ---
@@ -134,6 +166,10 @@
 
 <div align="center">
 
+<!-- 
+  NOTE: github-contributor-stats.vercel.app bhi rate-limited ho sakta hai. 
+  Agar ye load na ho toh ise hata sakte hain.
+-->
 <img width="75%" src="https://github-contributor-stats.vercel.app/api?username=omshukla-tech&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repos"/>
 
 </div>
